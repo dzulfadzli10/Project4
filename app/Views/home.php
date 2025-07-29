@@ -36,6 +36,10 @@
 						<a class="nav-link" href="<?= base_url('faqs') ?>">FAQ</a>
 					</li>
 				</ul>
+				<form class="d-flex ms-auto" action="<?= base_url('search') ?>" method="get">
+					<input class="form-control me-2" type="search" name="keyword" placeholder="Cari..." aria-label="Search" required>
+					<button class="btn btn-outline-light" type="submit">Cari</button>
+				</form>
 			</div>
 		</div>
 	</nav>
