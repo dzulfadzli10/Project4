@@ -62,7 +62,7 @@
 					<div class="card-body">
 						<h5 class="card-title">Mahapeka UIN Bandung Kirim 15 Anggota Muda ke Wilayah Baduy, ini Tujuannya</h5>
 						<p class="card-text">Bertempat di Wall Climbing Mahasiswa Pecinta Kelestarian Alam (Mahapeka) UIN Bandung,15 anggota muda Mahapeka mengikuti upacara pelepasan Bakti Sosial (Baksos) dan Penyuluhan Lingkungan Hidup (PLH) ke-35 pada Selasa, 29 Juli 2025..</p>
-						<a href="<?= base_url('post') ?>" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+						<a href="<?= base_url('post/codeigniter-starter') ?>" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
 					</div>
 				</div>
 			</div>
@@ -71,7 +71,7 @@
 					<div class="card-body">
 						<h5 class="card-title">Renjana Buana Gelar Aksi Penanaman Pohon Peringati Dies Natalis ke-10 Unusia</h5>
 						<p class="card-text">Dalam rangka memperingati Dies Natalis ke-10 Universitas Nahdlatul Ulama Indonesia (Unusia), Unit Kegiatan Mahasiswa (UKM) MPA. Renjana Buana menyelenggarakan aksi penanaman pohon sebagai wujud nyata cinta lingkungan. Kegiatan ini berlangsung di area Laboratorium Unusia, Bogor, dengan mengusung semangat pelestarian alam yang menyatukan berbagai elemen kampus.</p>
-						<a href="<?= base_url('post') ?>" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+						<a href="<?= base_url('post/hello-world') ?>" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
 					</div>
 				</div>
 			</div>
@@ -80,7 +80,7 @@
 					<div class="card-body">
 						<h5 class="card-title">Sispala Natha Mandala Jepara Tuntaskan Ekspedisi Pertamanya ke Gunung Muria</h5>
 						<p class="card-text">Ekstrakurikuler Siswa Pencinta Alam (Sispala) Natha Mandala SMKN 1 Bangsri Jepara, lakukan ekspedisi ke puncak Songo Likur Gunung Muria via Desa Tempur, Kabupaten Jepara, Jawa Tengah. Pada Sabtu-Minggu, 24-25 Mei 2025.</p>
-						<a href="<?= base_url('post') ?>" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+						<a href="<?= base_url('post/meetup-comunity') ?>" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
 					</div>
 				</div>
 			</div>

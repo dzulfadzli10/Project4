@@ -20,55 +20,53 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="<?= base_url() ?>">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="<?= base_url('about') ?>">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="<?= base_url('post') ?>">Blog</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="<?= base_url('contact') ?>">Contact</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="<?= base_url('faqs') ?>">FAQ</a>
-					</li>
+					<li class="nav-item"><a class="nav-link" href="<?= base_url() ?>">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="<?= base_url('about') ?>">About</a></li>
+					<li class="nav-item"><a class="nav-link active" aria-current="page" href="<?= base_url('post') ?>">Blog</a></li>
+					<li class="nav-item"><a class="nav-link" href="<?= base_url('contact') ?>">Contact</a></li>
+					<li class="nav-item"><a class="nav-link" href="<?= base_url('faqs') ?>">FAQ</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
 	<div class="p-5 mb-4 bg-light rounded-3">
-      <div class="container py-5">
-        <h1 class="display-5 fw-bold">Blog</h1>
-        <!-- <p class="col-md-8 fs-4">di laman portal berita</p> -->
-        <!-- <button class="btn btn-primary btn-sm" type="button">Read more</button> -->
-      </div>
-    </div>
+		<div class="container py-5">
+			<h1 class="display-5 fw-bold">Blog</h1>
+		</div>
+	</div>
 
 	<div class="container">
 		<div class="row">
 			<?php foreach ($posts as $post) : ?>
-				<div class="col-md-12 my-2 card">
-					<div class="card-body">
-						<h5 class="h5"><a href="/post/<?= $post['slug'] ?>"><?= $post['title'] ?></a></h5>
-						<p><?= substr($post['content'], 0, 120) ?></p>
+				<div class="col-md-12 my-2">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">
+								<a href="/post/<?= $post['slug'] ?>"><?= $post['title'] ?></a>
+							</h5>
+							<p class="card-text"><?= substr(strip_tags($post['content']), 0, 120) ?>...</p>
+							<a href="/post/<?= $post['slug'] ?>" class="btn btn-primary btn-sm">Baca Selengkapnya</a>
+						</div>
 					</div>
 				</div>
 			<?php endforeach ?>
 		</div>
-	</div>
+
+		<!-- PAGINATION -->
+		<div class="d-flex justify-content-center my-4">
+    		<?= $pager->links('default', 'pagination/bootstrap') ?>
+		</div>
+
 	<div class="container py-4">
 		<footer class="pt-3 mt-4 text-muted border-top">
 			<div class="container">
-				&copy; <?= Date('Y') ?>
+				&copy; <?= date('Y') ?>
 			</div>
 		</footer>
 	</div>
 
-	<!-- Jquery dan Bootsrap JS -->
+	<!-- Jquery dan Bootstrap JS -->
 	<script src="<?= base_url('js/jquery.min.js') ?>"></script>
 	<script src="<?= base_url('js/bootstrap.min.js') ?>"></script>
 

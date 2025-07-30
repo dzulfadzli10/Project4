@@ -18,8 +18,8 @@ class Post extends BaseController
      siapkan data untuk dikirim ke view dengan nama $posts
      dan isi datanya dengan post yang sudah terbit
     */
-    $data['posts'] = $post->where('status', 'published')->findAll();
-
+    $data['posts'] = $post->where('status', 'published')->paginate(3, 'default');
+	 $data['pager'] = $post->pager;
     // kirim data ke view
     echo view('post', $data);
 	}
@@ -29,7 +29,7 @@ class Post extends BaseController
 	public function viewPost($slug)
 	{
 		$post = new PostModel();
-		$data['post'] = $post->where([
+		$data['post'] = $post->where([	
 			'slug' => $slug,
 			'status' => 'published'
 		])->first();

@@ -51,20 +51,25 @@
 		<div class="row">
 			<div class="col-md-12 my-2 card">
 				<div class="card-body">
-					<h5 class="h5">Siapa Aku</h5>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis commodi tenetur quos ducimus repellat nulla, nam magni. Commodi iusto ad harum voluptas exercitationem facere eos earum laboriosam excepturi quas?</p>
+					<h4 class="h4">Sejarah Kami</h4>
+					<p>Wartapala Indonesia lahir dari semangat lapangan dan keresahan kolektif para aktivis pecinta alam terhadap kurangnya media yang secara khusus menyuarakan isu-isu lingkungan dari sudut pandang komunitas lapangan. Dimulai dari sekelompok anggota Mapala yang aktif dalam kegiatan konservasi dan ekspedisi, tercetuslah ide untuk mendirikan media alternatif yang tidak hanya menyampaikan informasi, tetapi juga menginspirasi.</p>
 				</div>
 			</div>
 			<div class="col-md-12 my-2 card">
 				<div class="card-body">
-					<h5 class="h5">Bisa Apa Aku</h5>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis commodi tenetur quos ducimus repellat nulla, nam magni. Commodi iusto ad harum voluptas exercitationem facere eos earum laboriosam excepturi quas?</p>
+					<h4 class="h4">Visi Misi</h4>
+					<h5 class="h5">Visi</h5>
+					<p>Menjadi media informasi terdepan bagi komunitas pecinta alam yang berperan aktif dalam edukasi, advokasi, dan penyebaran semangat konservasi di Indonesia.</p><br>
+					<h5 class="h5">Misi</h5>
+					<p>1. Menyediakan informasi yang akurat, inspiratif, dan edukatif seputar kegiatan alam bebas, lingkungan, dan konservasi.</p>
+					<p>2. Menjadi wadah komunikasi dan kolaborasi antarorganisasi pecinta alam di seluruh nusantara.</p>
+					<p>3. Meningkatkan kesadaran publik terhadap isu-isu lingkungan melalui konten kreatif dan partisipatif.</p>
 				</div>
 			</div>
 			<div class="col-md-12 my-2 card">
 				<div class="card-body">
-					<h5 class="h5">Bagaimana Aku</h5>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis commodi tenetur quos ducimus repellat nulla, nam magni. Commodi iusto ad harum voluptas exercitationem facere eos earum laboriosam excepturi quas?</p>
+					<h4 class="h4">Tujuan Kami</h4>
+					<p>untuk menyebarkan informasi seputar lingkungan dan dunia kepencintaalaman, mewadahi karya dari komunitas pecinta alam, serta membangun jaringan komunikasi antarorganisasi. Selain itu, Wartapala bertujuan menumbuhkan kepedulian terhadap alam, mendorong budaya literasi lingkungan, dan menginspirasi generasi muda agar aktif dalam menjaga kelestarian bumi.</p>
 				</div>
 			</div>
 			
