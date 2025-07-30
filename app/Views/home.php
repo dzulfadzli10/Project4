@@ -44,46 +44,59 @@
 		</div>
 	</nav>
 
-	<div class="p-5 mb-4 bg-light rounded-3">
-      <div class="container py-5">
-        <h1 class="display-5 fw-bold">Selamat Datang</h1>
-        <!-- <p class="col-md-8 fs-4">di laman portal berita</p> -->
-        <!-- <button class="btn btn-primary btn-sm" type="button">Read more</button> -->
-      </div>
-    </div>
+	<!-- Hero -->
+	<section class="text-center py-5 mt-5 bg-light">
+		<div class="container">
+			<h1 class="display-5 fw-bold">Selamat Datang di Wartapala Indonesia</h1>
+			<p class="fs-5">Ruang berbagi informasi, kisah petualangan, dan kepedulian lingkungan bagi para pecinta alam Indonesia.
 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 my-2 card">
-				<div class="card-body">
-					<h5 class="h5">Mulai ngoding PHP nich</h5>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis commodi tenetur quos ducimus repellat nulla, nam magni. Commodi iusto ad harum voluptas exercitationem facere eos earum laboriosam excepturi quas?</p>
+</p>
+		</div>
+	</section>
+
+	<!-- Kartu Berita -->
+	<div class="container py-5">
+		<div class="row g-4">
+			<div class="col-md-6 col-lg-4">
+				<div class="card h-100 shadow-sm">
+					<div class="card-body">
+						<h5 class="card-title">Mahapeka UIN Bandung Kirim 15 Anggota Muda ke Wilayah Baduy, ini Tujuannya</h5>
+						<p class="card-text">Bertempat di Wall Climbing Mahasiswa Pecinta Kelestarian Alam (Mahapeka) UIN Bandung,15 anggota muda Mahapeka mengikuti upacara pelepasan Bakti Sosial (Baksos) dan Penyuluhan Lingkungan Hidup (PLH) ke-35 pada Selasa, 29 Juli 2025..</p>
+						<a href="<?= base_url('post') ?>" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+					</div>
 				</div>
 			</div>
-			<div class="col-md-12 my-2 card">
-				<div class="card-body">
-					<h5 class="h5">Jadi paham CSS dan JS</h5>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis commodi tenetur quos ducimus repellat nulla, nam magni. Commodi iusto ad harum voluptas exercitationem facere eos earum laboriosam excepturi quas?</p>
+			<div class="col-md-6 col-lg-4">
+				<div class="card h-100 shadow-sm">
+					<div class="card-body">
+						<h5 class="card-title">Renjana Buana Gelar Aksi Penanaman Pohon Peringati Dies Natalis ke-10 Unusia</h5>
+						<p class="card-text">Dalam rangka memperingati Dies Natalis ke-10 Universitas Nahdlatul Ulama Indonesia (Unusia), Unit Kegiatan Mahasiswa (UKM) MPA. Renjana Buana menyelenggarakan aksi penanaman pohon sebagai wujud nyata cinta lingkungan. Kegiatan ini berlangsung di area Laboratorium Unusia, Bogor, dengan mengusung semangat pelestarian alam yang menyatukan berbagai elemen kampus.</p>
+						<a href="<?= base_url('post') ?>" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+					</div>
 				</div>
 			</div>
-			<div class="col-md-12 my-2 card">
-				<div class="card-body">
-					<h5 class="h5">Codeigniter asyik juga kok</h5>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis commodi tenetur quos ducimus repellat nulla, nam magni. Commodi iusto ad harum voluptas exercitationem facere eos earum laboriosam excepturi quas?</p>
+			<div class="col-md-6 col-lg-4">
+				<div class="card h-100 shadow-sm">
+					<div class="card-body">
+						<h5 class="card-title">Sispala Natha Mandala Jepara Tuntaskan Ekspedisi Pertamanya ke Gunung Muria</h5>
+						<p class="card-text">Ekstrakurikuler Siswa Pencinta Alam (Sispala) Natha Mandala SMKN 1 Bangsri Jepara, lakukan ekspedisi ke puncak Songo Likur Gunung Muria via Desa Tempur, Kabupaten Jepara, Jawa Tengah. Pada Sabtu-Minggu, 24-25 Mei 2025.</p>
+						<a href="<?= base_url('post') ?>" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+					</div>
 				</div>
 			</div>
-			
 		</div>
 	</div>
+
+	<!-- Footer -->
 	<div class="container py-4">
 		<footer class="pt-3 mt-4 text-muted border-top">
 			<div class="container">
-				&copy; <?= Date('Y') ?>
+				&copy; <?= date('Y') ?>
 			</div>
 		</footer>
 	</div>
 
-	<!-- Jquery dan Bootsrap JS -->
+	<!-- JS -->
 	<script src="<?= base_url('js/jquery.min.js') ?>"></script>
 	<script src="<?= base_url('js/bootstrap.min.js') ?>"></script>
 
